@@ -1,0 +1,24 @@
+{
+  "name": "commandur",
+  "version": "1.0.0",
+  "description": "The Royal Game of Ur",
+  "main": "index.js",
+  "scripts": {
+    "test": "false",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "game",
+    "ur"
+  ],
+  "author": "Matthew Crumley <email@matthewcrumley.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2017": "^6.24.1"
+  }
+}
